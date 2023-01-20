@@ -45,3 +45,7 @@ puts 'Got it.  Thanks ' + name + '. Now... what is your favorite number?'
 num = gets.chomp
 num = num.to_i+21
 puts 'Lame.  because ' + num.to_s + ' is actually a much better number.'
+
+var1 = 10
+var2=var1
+puts var1
