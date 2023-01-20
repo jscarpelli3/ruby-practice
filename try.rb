@@ -50,40 +50,58 @@
 # var2=var1
 # puts var1
 
+# puts var3.reverse
+name = gets.chomp
+puts 'Thanks ' + name + ', did you know there are ' + name.length.to_s + ' letters in your name?'
 
-lineWidth = 100
+# lineWidth = 100
 
-puts ('this is a line of text '.center(lineWidth))
-puts ('this is yet another line of text....'.center(lineWidth))
+# puts ('this is a line of text '.center(lineWidth))
+# puts ('this is yet another line of text....'.center(lineWidth))
 
-puts 5**2
-puts 5**0.2
-puts 87%3
+# puts 5**2
+# puts 5**0.2
+# puts 87%3
 
-puts ((87-92).abs)
+# puts ((87-92).abs)
 
 
-puts(rand(100))
-puts(rand(100))
-puts(rand(1))
-puts(rand(1))
-puts(rand(1))
-puts(rand(99999999999999999999999999999999999999999999999999999999999))
-puts('The weatherman said there is a '+rand(101).to_s+'% chance of rain,')
+# puts(rand(100))
+# puts(rand(100))
+# puts(rand(1))
+# puts(rand(1))
+# puts(rand(1))
+# puts(rand(99999999999999999999999999999999999999999999999999999999999))
+# puts('The weatherman said there is a '+rand(101).to_s+'% chance of rain,')
 
-puts rand
-puts (rand(27))
+# puts rand
+# puts (rand(27))
 
-srand 323
-puts (rand(35))
-puts (rand(45))
-puts (rand(22))
-srand 0
-puts (rand(22))
+# srand 323
+# puts (rand(35))
+# puts (rand(45))
+# puts (rand(22))
+# srand 0
+# puts (rand(22))
 
-puts(Math::PI)
-puts(Math::E)
-puts(Math.cos(Math::PI/3))
-puts(Math.tan(Math::PI/4))
-puts(Math.log(Math::E**2))
-puts((1 + Math.sqrt(5))/2)
+# puts(Math::PI)
+# puts(Math::E)
+# puts(Math.cos(Math::PI/3))
+# puts(Math.tan(Math::PI/4))
+# puts(Math.log(Math::E**2))
+# puts((1 + Math.sqrt(5))/2)
+
+# puts 'Hello, how are you today?'
+# status = gets.chomp
+
+# if status.downcase == 'good'
+#   puts 'Oh, that\'s nice to hear, but \'good\' sounds like a fake answer... tell me for real: How are you?'
+#   status = gets.chomp
+#   if status.downcase == 'bad'
+#     puts 'That makes sense... i only accept negative answers.'
+#   end
+# else 
+#   if status.downcase.chomp == 'great'
+#       puts 'you sound way too enthusiastic, i smell a lie.'
+#   end
+# end
