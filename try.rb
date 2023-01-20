@@ -37,15 +37,53 @@
 
 # puts "hello " + name + ", you're doing great!"
 
-puts 'Hello!  What is your first name?'
-name = gets.chomp
-puts 'Oh! ' + name + ' is a fantastic name. but give me your full name!'
-name = gets.chomp 
-puts 'Got it.  Thanks ' + name + '. Now... what is your favorite number?'
-num = gets.chomp
-num = num.to_i+21
-puts 'Lame.  because ' + num.to_s + ' is actually a much better number.'
+# puts 'Hello!  What is your first name?'
+# name = gets.chomp
+# puts 'Oh! ' + name + ' is a fantastic name. but give me your full name!'
+# name = gets.chomp 
+# puts 'Got it.  Thanks ' + name + '. Now... what is your favorite number?'
+# num = gets.chomp
+# num = num.to_i+21
+# puts 'Lame.  because ' + num.to_s + ' is actually a much better number.'
 
-var1 = 10
-var2=var1
-puts var1
+# var1 = 10
+# var2=var1
+# puts var1
+
+
+lineWidth = 100
+
+puts ('this is a line of text '.center(lineWidth))
+puts ('this is yet another line of text....'.center(lineWidth))
+
+puts 5**2
+puts 5**0.2
+puts 87%3
+
+puts ((87-92).abs)
+
+
+puts(rand(100))
+puts(rand(100))
+puts(rand(1))
+puts(rand(1))
+puts(rand(1))
+puts(rand(99999999999999999999999999999999999999999999999999999999999))
+puts('The weatherman said there is a '+rand(101).to_s+'% chance of rain,')
+
+puts rand
+puts (rand(27))
+
+srand 323
+puts (rand(35))
+puts (rand(45))
+puts (rand(22))
+srand 0
+puts (rand(22))
+
+puts(Math::PI)
+puts(Math::E)
+puts(Math.cos(Math::PI/3))
+puts(Math.tan(Math::PI/4))
+puts(Math.log(Math::E**2))
+puts((1 + Math.sqrt(5))/2)
