@@ -51,8 +51,8 @@
 # puts var1
 
 # puts var3.reverse
-name = gets.chomp
-puts 'Thanks ' + name + ', did you know there are ' + name.length.to_s + ' letters in your name?'
+# name = gets.chomp
+# puts 'Thanks ' + name + ', did you know there are ' + name.length.to_s + ' letters in your name?'
 
 # lineWidth = 100
 
@@ -105,3 +105,12 @@ puts 'Thanks ' + name + ', did you know there are ' + name.length.to_s + ' lette
 #       puts 'you sound way too enthusiastic, i smell a lie.'
 #   end
 # end
+
+beer = 99
+
+while beer > 0
+  puts beer.to_s + ' bottles of beer on the wall, ' + beer.to_s + ' bottles of beer! Take one down pass it around, ' + (beer-1).to_s + 'bottles of beer on the wall'
+  beer = beer-1
+end 
+
+puts 'ZERO BOTTLES OF BEER ON THE WAAAAALLLLLLLLL!!!!'
